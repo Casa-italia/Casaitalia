@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence Voyage & Visa - Accompagnement</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f9fc;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #0A3D62;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Section */
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #0A3D62;
+        }
+
+        .cta-button {
+            background: #1E90FF;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        /* Service cards */
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #1E90FF;
+        }
+
+        /* Contact */
+        .contact-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        button {
+            background: #0A3D62;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            border: none;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+
+        footer {
+            background: #0A3D62;
+            text-align: center;
+            padding: 15px;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Agence Voyage & Procédures</h1>
+    <p>Votre partenaire pour réussir vos démarches de voyage</p>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">À propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>À propos de notre agence</h2>
+    <p>
+        Nous accompagnons les étudiants, travailleurs et voyageurs dans toutes leurs démarches :
+        visas, admissions universitaires, assurances, AVI, logement étudiant, réservations de billets
+        et orientation internationale.
+    </p>
+    <a href="#contact" class="cta-button">Demander un accompagnement</a>
+</section>
+
+<section id="services">
+    <h2>Nos Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Accompagnement Visa</h3>
+            <p>Préparation du dossier, prise de rendez-vous, conseils et suivi jusqu'à l’obtention.</p>
+        </div>
+
+        <div class="card">
+            <h3>Admission Universitaire</h3>
+            <p>Inscription en licence, master, écoles, traduction de documents, démarches.</p>
+        </div>
+
+        <div class="card">
+            <h3>AVI & Assurance</h3>
+            <p>Assurance voyage, AVI étudiant, couverture médicale fiable et abordable.</p>
+        </div>
+
+        <div class="card">
+            <h3>Logement Étudiant</h3>
+            <p>Résidences universitaires, logements privés, garanties de caution.</p>
+        </div>
+
+        <div class="card">
+            <h3>Billets d’avion</h3>
+            <p>Réservation rapide et sécurisée, tarifs étudiants, flexibilité de voyage.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact & Assistance</h2>
+    <div class="contact-box">
+        <form>
+            <input type="text" placeholder="Votre nom" required>
+            <input type="text" placeholder="WhatsApp" required>
+            <input type="email" placeholder="Email" required>
+            <textarea rows="5" placeholder="Expliquez votre demande" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+
+        <p style="margin-top:20px;">
+            📞 WhatsApp : <strong>+237 6XX XX XX XX</strong><br>
+            ✉ Email : <strong>contact@agence.com</strong>
+        </p>
+    </div>
+</section>
+
+<footer>
+    © 2025 Agence Voyage & Procédures — Tous droits réservés
+</footer>
+
+</body>
+</html>
